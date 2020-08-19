@@ -1,0 +1,111 @@
+#tbay-wc-tab-custom_tab {
+	display: none! important;
+}
+
+#tbay-header .header-main {
+    background: #000;
+}
+.product .product-block:not(.vertical).v7 span.onsale .saled, .product .product-block:not(.vertical).v7 span.onsale .featured {
+    display: block;
+    margin: 4px 0;
+    display: none;
+    position: relative;
+    right: 65px;
+    bottom: 20px;
+}
+
+.woocommerce-Price-amount {
+    font-weight: 500;
+    font-size: 15px;
+    color: #ca0815;
+    position: relative;
+    left: 10px;
+}
+
+
+
+.woocommerce div.product p.price del .woocommerce-Price-amount, .woocommerce div.product span.price del .woocommerce-Price-amount {display: none;}
+
+
+#main > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1563160557352 > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div > div > div > div > div > div > div.block-inner > figure > a > span > span {display: none;}
+
+#main > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1563160592034 > div > div > div > div > div > div > div.owl-carousel.products.rows-1.slick-initialized.slick-slider > div > div > div > div > div > div > div.block-inner > figure > a > span > span {display: none;}
+
+#main > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1563160557352 > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div > div > div > div > div > div > div.block-inner > figure > a > span > span {display: none;}
+
+
+#shop-now > button.single_add_to_cart_button.button.alt {  padding-left: 15px; padding-right: 15px;}
+
+#shop-now > button.dokan-live-chat.button.alt {  padding-left: 15px; padding-right: 15px; margin-right: 2px; }
+#slick-slide31 > div > div > div > div.block-inner > figure > a > span > span { display: none;}
+
+#tbay-header > div.header-main.sticky-header.sticky-1 { padding-bottom:5px;padding-top:5px;}
+
+#tbay-header > div.header-main.sticky-1 > div > div > div.header-search.col-md-6.col-xlg-7 > div > div > form > div > div > div.select-category.input-group-addon > div > p { background-color: #FCB913;}
+
+#tbay-header > div.header-main.sticky-header.sticky-1 > div > div > div.header-right.col-md-4.col-xlg-3 > div.tbay-login > a > i {color: #FCB913;}
+#dokan-content > div.display-products.products.products-grid > div > div.product.type-product.post-4581.status-publish.instock.product_cat-skin-solutions-cbd-premium-products-beauty.product_tag-cbd.product_tag-hair.has-post-thumbnail.sale.taxable.shipping-taxable.purchasable.product-type-simple > div > div > div.block-inner > figure > a > span > span { display: none;}
+
+.dealtoday {
+	background-color: #ca0815 ;
+	width: 100px;
+	color: white;
+	position: relative;
+	font-size: smaller;
+	bottom: 188px;}
+.b2g1f {
+	background-color:green ;
+	width: 100px;
+	color: white;
+	position: relative;
+	font-size: smaller;
+	bottom: 188px;
+}
+.flashsale {
+	bottom: 185px !important;
+}
+
+@media screen and (max-width: 600px) {
+.dealtoday {
+	background-color: #ca0815 ;
+	width: 100px;
+	color: white;
+	position: relative;
+	font-size: smaller;
+	top: 5%;}
+.b2g1f {
+	background-color: green;
+	width: 100px;
+	color: white;
+	position: relative;
+	font-size: smaller;
+	top: 5%;
+}
+.sanphamcbd	.b2g1f {
+	background-color: green;
+	width: 100px;
+	color: white;
+	position: relative;
+	font-size: smaller;
+	top : 25%;
+}
+}
+
+
+.product-block:not(.vertical).v7 span.onsale, .product-block:not(.vertical).list-v7 span.onsale { display: none;};
+
+.shop4all {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+#tbay-header .tbay-search-form .form-group .input-group { left: 5%;}
+
+.banchaynhat .dealtoday {
+display: none;
+}
+
+.giasoctrongngay .b2g1f {display: none;}
+
+.h1 .h2 .h3 .h4. .h5 { font-family: crimson;}
+ 
