@@ -1,10 +1,11 @@
 #tbay-wc-tab-custom_tab {
 	display: none! important;
 }
-
+.h1 .h2 .h3 .h4. .h5 { font-family: crimson;}
 #tbay-header .header-main {
     background: #000;
 }
+#tbay-header .tbay-search-form .form-group .input-group { left: 5%;}
 .product .product-block:not(.vertical).v7 span.onsale .saled, .product .product-block:not(.vertical).v7 span.onsale .featured {
     display: block;
     margin: 4px 0;
@@ -21,11 +22,6 @@
     position: relative;
     left: 10px;
 }
-
-
-
-.woocommerce div.product p.price del .woocommerce-Price-amount, .woocommerce div.product span.price del .woocommerce-Price-amount {display: none;}
-
 
 #main > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1563160557352 > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div > div > div > div > div > div > div.block-inner > figure > a > span > span {display: none;}
 
@@ -46,50 +42,63 @@
 #tbay-header > div.header-main.sticky-header.sticky-1 > div > div > div.header-right.col-md-4.col-xlg-3 > div.tbay-login > a > i {color: #FCB913;}
 #dokan-content > div.display-products.products.products-grid > div > div.product.type-product.post-4581.status-publish.instock.product_cat-skin-solutions-cbd-premium-products-beauty.product_tag-cbd.product_tag-hair.has-post-thumbnail.sale.taxable.shipping-taxable.purchasable.product-type-simple > div > div > div.block-inner > figure > a > span > span { display: none;}
 
-.dealtoday {
-	background-color: #ca0815 ;
-	width: 100px;
-	color: white;
-	position: relative;
-	font-size: smaller;
-	bottom: 188px;}
 .b2g1f {
-	background-color:green ;
-	width: 100px;
 	color: white;
-	position: relative;
-	font-size: smaller;
-	bottom: 188px;
+	background-color: green;
+	width: 110px;
 }
+
+.giam50 {
+	color: white;
+	background-color: #ca0815;
+	width: 110px;	
+}
+
+
+
+.giasoctrongngay .b2g1f {display:none;}
+.sanphamdangsale .giam50 {display:none;}
+
 .flashsale {
 	bottom: 185px !important;
 }
 
-@media screen and (max-width: 600px) {
-.dealtoday {
-	background-color: #ca0815 ;
-	width: 100px;
-	color: white;
-	position: relative;
-	font-size: smaller;
-	top: 5%;}
-.b2g1f {
-	background-color: green;
-	width: 100px;
-	color: white;
-	position: relative;
-	font-size: smaller;
-	top: 5%;
+
+.product-block:not(.vertical).v7 span.onsale, .product-block:not(.vertical).list-v7 span.onsale { display: none;}
+
+.shop4all {
+	background-color: yellow;
+	font-weight: bold;
 }
-.sanphamcbd	.b2g1f {
-	background-color: green;
-	width: 100px;
+#nav-category-menu > li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-8967.aligned-left > a {
+	background-color: black;
+	font-weight: bold;
 	color: white;
-	position: relative;
-	font-size: smaller;
-	top : 25%;
 }
+#nav-category-menu > li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-8967.aligned-left > 	
+	a:hover {
+  color: #FCB913;
 }
+
+
+
+#tbay-header .tbay-vertical>li>a .text-label.label-hot { background-color: red;}
+
+#menu-item-8386 .dropdown-menu >li a {color: black;}
+
+.sanphamdangsale del .woocommerce-Price-amount {display: none;}
+
+.sanphambanchaynhat del .woocommerce-Price-amount {display: none;}
+
+.sanphamcbdcaocap del .woocommerce-Price-amount {display: none;}
+
+.recommended del  .woocommerce-Price-amount  {display: none;}
+
+.sanphambanchaynhat .date-title {display: none;}
+.sanphambanchaynhat .time {display: none;}
+
+
+
 
 
 .product-block:not(.vertical).v7 span.onsale, .product-block:not(.vertical).list-v7 span.onsale { display: none;};
@@ -98,14 +107,84 @@
 	background-color: yellow;
 	font-weight: bold;
 }
-
-#tbay-header .tbay-search-form .form-group .input-group { left: 5%;}
-
-.banchaynhat .dealtoday {
-display: none;
+.flashsale {
+	bottom: 185px !important;
 }
 
-.giasoctrongngay .b2g1f {display: none;}
+.dokan-single-store .profile-frame .profile-info-box .profile-info-img { display: none;}
 
-.h1 .h2 .h3 .h4. .h5 { font-family: crimson;}
- 
+.price del .woocommerce-Price-amount {display: none;}
+
+.dichvudulich .caption {display: none;}
+.dichvudulich .block-inner {display: none;}
+
+@media screen and (max-width: 600px) {
+
+	.giam50 {
+	background-color: #ca0815 ;
+	width: 100px;
+	color: white;
+	position: relative;
+	bottom: 180px;
+}
+.b2g1f {
+	background-color: green;
+	width: 100px;
+	color: white;
+	position: relative;
+	bottom: 180px;
+}
+.sanphamcbdcaocap	.b2g1f {
+	background-color: green;
+	width: 100px;
+	color: white;
+	position: relative;
+	font-size: smaller;
+	bottom: 180px;
+}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(5) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(5) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(6) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(6) .caption  {display:none;}
+	
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(7) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(7) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(8) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(8) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(9) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(9) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(10) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(10) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(11) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(11) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(12) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(12) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(13) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(13) .caption  {display:none;}
+	
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(14) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(14) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(15) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(15) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(16) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(16) .caption  {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(17) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(17) .caption  {display:none;}#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(18) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(18) .caption  {display:none;}
+	
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(19) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(19) .caption  {display:none;}
+	
+	
+	
+/* best seller */
+	#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(5) .block-inner {display: none;}
+		#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(5) .caption  {display:none;}
+	#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(6) .block-inner {display: none;}
+		#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(6) .caption  {display:none;}
+	#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(7) .block-inner {display: none;}
+		#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(7) .caption  {display:none;}
+	#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(8) .block-inner {display: none;}
+		#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(8) .caption  {display:none;}
+}
+
