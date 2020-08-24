@@ -22,6 +22,17 @@
     position: relative;
     left: 10px;
 }
+.product-block .price del .woocommerce-Price-amount {display:none;}
+
+
+/*product short description* onsale*/
+#main > div.display-products.products.products-list > div .woocommerce-product-details__short-description  {display: none;}
+
+/*Related Product OG Price*/
+.information .price del .woocommerce-Price-amount {display: none;}
+
+.tbay-addon-content .price del .woocommerce-Price-amount {display: none;}
+
 
 #main > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1563160557352 > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div > div > div > div > div > div > div.block-inner > figure > a > span > span {display: none;}
 
@@ -57,8 +68,8 @@
 
 
 .giasoctrongngay .b2g1f {display:none;}
-.sanphamdangsale .giam50 {display:none;}
 
+/*.sanphamdangsale .giam50 {display:none;}*/
 .flashsale {
 	bottom: 185px !important;
 }
@@ -100,7 +111,6 @@
 
 
 
-
 .product-block:not(.vertical).v7 span.onsale, .product-block:not(.vertical).list-v7 span.onsale { display: none;};
 
 .shop4all {
@@ -113,11 +123,31 @@
 
 .dokan-single-store .profile-frame .profile-info-box .profile-info-img { display: none;}
 
+/*display gia soc trong ngay original price */
+ /*
 .price del .woocommerce-Price-amount {display: none;}
-
+*/
 .dichvudulich .caption {display: none;}
 .dichvudulich .block-inner {display: none;}
+span.quantity{
+	position: relative;
+	margin-left: 10px;} 
 
+.woocommerce-product-details__short-description  {
+visibility: gone;}
+
+
+#main > div.display-products.products.products-list > div > div.product.type-product.post-4159.status-publish.last.instock.product_cat-cham-soc-suc-khoe.product_cat-gia-soc-trong-ngay.product_cat-nam-duoc-lieu-cao-cap.product_cat-tang-cuong-suc-de-khang.product_tag-bestseller.product_tag-onsale.has-post-thumbnail.sale.taxable.shipping-taxable.purchasable.product-type-simple > div > div > div.caption.col-xs-7.col-sm-8 > span > del > span > bdi { display: none;}
+
+/*-------Doi Tac *---------*/
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562308819205.wpb_start_animation.animated > div > div > div > div.vc_row.wpb_row.vc_inner.vc_row-fluid.vc_custom_1562051848564 > div > div > div > div > h2 {
+font-size: larger;}  
+
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-features.style-3 > div > div > div > div > div > h3 {color: red;
+font-size: 24pt;}
+
+/*-------Doi Tac *---------*/
+/*Starting of mobile view------------*/
 @media screen and (max-width: 600px) {
 
 	.giam50 {
@@ -142,10 +172,9 @@
 	font-size: smaller;
 	bottom: 180px;
 }
-	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(5) .block-inner {display:none;}
-	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(5) .caption  {display:none;}
-		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(6) .block-inner {display:none;}
-	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(6) .caption  {display:none;}
+	
+	/*san pham dang sale*/
+
 	
 		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(7) .block-inner {display:none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(7) .caption  {display:none;}
@@ -174,17 +203,90 @@
 	
 		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(19) .block-inner {display:none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(19) .caption  {display:none;}
-	
-	
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(20) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(20) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(21) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(21) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(22) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(22) .caption  {display:none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(23) .block-inner {display:none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(23) .caption  {display:none;}
 	
 /* best seller */
-	#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(5) .block-inner {display: none;}
-		#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(5) .caption  {display:none;}
-	#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(6) .block-inner {display: none;}
-		#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(6) .caption  {display:none;}
+	
 	#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(7) .block-inner {display: none;}
 		#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(7) .caption  {display:none;}
 	#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(8) .block-inner {display: none;}
 		#main > div:nth-child(6) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(8) .caption  {display:none;}
-}
+	
+	/*CBD Cao Cấp*/
+	#main > div:nth-child(8) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(1) .block-inner {display: none;}
+		/*CBD Cao Cấp*/
+	#slick-slide46 > div > div > div {display: none;}
+	#slick-slide47 > div > div > div {display: none;}
+	#slick-slide48 > div > div > div {display: none;}
+	#slick-slide49 > div > div > div {display: none;}
+	
+	/*Recommened For you*/
+		#slick-slide66 > div > div > div {display: none;}
+	#slick-slide67 > div > div > div {display: none;}
+	#slick-slide68 > div > div > div {display: none;}
+	#slick-slide69 > div > div > div {display: none;}
 
+	#slick-slide610 > div > div > div {display: none;}
+	#slick-slide611 > div > div > div {display: none;}
+	#slick-slide612 > div > div > div {display: none;}
+	#slick-slide613 > div > div > div {display: none;}
+
+	
+	/*fix view cart*/
+	#main > div > form > div > div.col-md-8 > div.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents > div img {left: -75px;}
+	
+	
+	/*spaces before Xem Them */
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(7) {display: none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(8) {display: none;}
+		/*spaces before Xem Them */
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(9) {display: none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(10) {display: none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(11) {display: none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(12) {display: none;}
+		/*spaces before Xem Them */
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(13) {display: none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(14) {display: none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(15) {display: none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(16) {display: none;}
+		/*spaces before Xem Them */
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(17) {display: none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(18) {display: none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(19) {display: none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(20) {display: none;}
+		/*spaces before Xem Them */
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(21) {display: none;}
+	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(22) {display: none;}
+	#main > div:nth-child(4) > div > div > div > div > a {font-weight: bold;
+	color: black;}	
+	
+span.quantity{
+	position: relative;
+	margin-left: 10px;} 
+	
+	#main-mobile-menu-mmenu > div {display: none; }
+#main-mobile-menu-mmenu .menu {
+	position: relative;
+	top: -35px;}
+	#mobile-menu-second-mmenu .menu {
+	position: relative;
+	top: -35px;}
+	#mobile-menu-second-mmenu > div {display: none;}
+	/*end of mobile css*/
+
+/*For tablet*-------*/
+@media only screen and (min-width: 600px) and (max-width: 1000px)  {
+
+	/*fix view cart*/
+	#main > div > form > div > div.col-md-8 > div.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents > div img {left: -75px;}
+		span.quantity{
+	position: relative;
+	margin-left: 10px;} 
+}
