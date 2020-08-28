@@ -5,7 +5,7 @@
 #tbay-header .header-main {
     background: #000;
 }
-#tbay-header .tbay-search-form .form-group .input-group { left: 5%;}
+#tbay-header .tbay-search-form .form-group .input-group { left: 5% !important;}
 .product .product-block:not(.vertical).v7 span.onsale .saled, .product .product-block:not(.vertical).v7 span.onsale .featured {
     display: block;
     margin: 4px 0;
@@ -22,7 +22,7 @@
     position: relative;
     left: 10px;
 }
-.product-block .price del .woocommerce-Price-amount {display:none;}
+
 
 
 /*product short description* onsale*/
@@ -31,8 +31,8 @@
 /*Related Product OG Price*/
 .information .price del .woocommerce-Price-amount {display: none;}
 
-.tbay-addon-content .price del .woocommerce-Price-amount {display: none;}
 
+/*Related Product OG Price*/
 
 #main > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1563160557352 > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div > div > div > div > div > div > div.block-inner > figure > a > span > span {display: none;}
 
@@ -97,6 +97,10 @@
 
 #menu-item-8386 .dropdown-menu >li a {color: black;}
 
+/*-------- Price Gia Soc trong ngay-----------*/
+.giasoctrongngay del .woocommerce-Price-amount {display: unset !important;} 
+/*--------------------*/
+del .woocommerce-Price-amount {display: none;} 
 .sanphamdangsale del .woocommerce-Price-amount {display: none;}
 
 .sanphambanchaynhat del .woocommerce-Price-amount {display: none;}
@@ -107,12 +111,7 @@
 
 .sanphambanchaynhat .date-title {display: none;}
 .sanphambanchaynhat .time {display: none;}
-
-
-
-
 .product-block:not(.vertical).v7 span.onsale, .product-block:not(.vertical).list-v7 span.onsale { display: none;};
-
 .shop4all {
 	background-color: yellow;
 	font-weight: bold;
@@ -127,6 +126,10 @@
  /*
 .price del .woocommerce-Price-amount {display: none;}
 */
+
+
+
+
 .dichvudulich .caption {display: none;}
 .dichvudulich .block-inner {display: none;}
 span.quantity{
@@ -143,10 +146,89 @@ visibility: gone;}
 #main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562308819205.wpb_start_animation.animated > div > div > div > div.vc_row.wpb_row.vc_inner.vc_row-fluid.vc_custom_1562051848564 > div > div > div > div > h2 {
 font-size: larger;}  
 
-#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-features.style-3 > div > div > div > div > div > h3 {color: red;
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-features.style-3 > div > div > div > div > div > h3 {color: #d33;
+	margin-bottom: -0px !important;
 font-size: 24pt;}
 
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-features.style-3 > div > div > div > div > div > h3 {margin-top: -20px; font-size: 18pt;}
+.tbay-addon-features.style-3 .description {font-size: 14px; padding-left:25px;
+padding-right: 25px;}
+
+/* Buoc*/
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562308819205.wpb_start_animation.animated > div > div > div > div.vc_row.wpb_row.vc_inner.vc_row-fluid.vc_custom_1562051848564 > div > div > div > div > h2 {color: #000; font-size: 15pt; position: relative;top: 320px; margin-top:0px !important ; }
+
+
+
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562308819205.wpb_start_animation.animated > div > div > div > div.vc_row.wpb_row.vc_inner.vc_row-fluid.vc_custom_1562051848564 {margin-top: -70px;}
+#main-containter.containter.inner {padding: 0px;}
+
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562308819205.wpb_start_animation.animated {padding-bottom: 0px;}
+
+
+/*cac buoc*/
+#main > div.vc_row.wpb_row.vc_row-fluid.dangkibanhangcung.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1598303351056.wpb_start_animation.animated > div > div > div > div.vc_row.wpb_row.vc_inner.vc_row-fluid.vc_custom_1598303414393 > div > div > div > div > h2 {font-size: 16pt;position: relative; top: 320px;}
+#main > div.vc_row.wpb_row.vc_row-fluid.dangkibanhangcung.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1598303351056.wpb_start_animation.animated > div > div > div > div.wpb_text_column.wpb_content_element.center.font-16 > div > p {position: relative;
+top: 70px;}
+#main-container {padding-bottom: 50px;}
+
+ *#main > div.vc_row.wpb_row.vc_row-fluid.dangkibanhang.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1598312459995.wpb_start_animation.animated > div > div > div > div.vc_row.wpb_row.vc_inner.vc_row-fluid.vc_custom_1598303414393 > div > div > div > div > h2 {font-size:15pt;position: relative; top: 320px;}
+
+#main > div.vc_row.wpb_row.vc_row-fluid.dangkibanhang.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1598312459995.wpb_start_animation.animated > div > div > div > div.wpb_text_column.wpb_content_element.center.font-16 > div > p {position: relative;
+padding-top: 60px;}
+
+#main > div.vc_row.wpb_row.vc_row-fluid.dangkibanhang.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1598312459995.wpb_start_animation.animated > div > div { padding-bottom: -50px;}
+#main > div.vc_row.wpb_row.vc_row-fluid.dangkibanhang.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1598312459995.wpb_start_animation.animated > div > div > div {background-color: #fff;}
+>
+.become_vendor_steps {background-color: #f5f5f5;}
+.become-vendor #main-container {padding-bottom:50px !important;}
+
+/*===Xem Them ===*/
+	/*Xem Them */
+	
+	#main > div:nth-child(4) > div > div > div > div > a {
+	color: black; font-weight: bold;}		#main > div:nth-child(5) > div > div > div > div > a {
+	color: black; font-weight: bold;}	
+	#main > div:nth-child(6) > div > div > div > div > a {
+	color: black; font-weight: bold;}	
+	#main > div:nth-child(7) > div > div > div > div > a {
+	color: black; font-weight: bold;}	
+	#main > div:nth-child(8) > div > div > div > div > a {
+	color: black; font-weight: bold;}	
+	
+	#main > div:nth-child(9) > div > div > div > div > a {
+	color: black; font-weight: bold;}
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-features.style-3 > div > div > div > div { padding-bottom: 25px; padding-top: 15px;  text-align: justify; padding-left: 20px; padding-right: 20px;}
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-features.style-3 > div > div > div> div > div > h3 {color: #d33; text-align: center !important; font-size: 15pt;}
 /*-------Doi Tac *---------*/
+
+
+/*---Bullet point ul-li fix--*/
+
+.woocommerce-product-details__short-description > ul {list-style: disc inside;}
+
+/*Footer*/
+
+/*
+#tbay-footer > div > div > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1562751140853 > div.wpb_column.vc_column_container.vc_col-sm-4.vc_col-lg-3.vc_col-md-3 > div > div > div.wpb_text_column.wpb_content_element > div > ul > li:nth-child(1):before {content: '/'} 
+*/
+
+#tbay-footer > div > div > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1562751140853 > div.wpb_column.vc_column_container.vc_col-sm-4.vc_col-lg-3.vc_col-md-3 > div > div > div.wpb_text_column.wpb_content_element > div > ul > li:nth-child(3) a { color: #888; }
+#tbay-footer > div > div > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1562751140853 > div.wpb_column.vc_column_container.vc_col-sm-4.vc_col-lg-3.vc_col-md-3 > div > div > div.wpb_text_column.wpb_content_element > div > ul > li:nth-child(4) > i.linear-icon-headphones{display: none;}
+/*
+#tbay-footer > div > div > div.vc_row.wpb_row.vc_row-fluid.vc_custom_1562751140853 > div.wpb_column.vc_column_container.vc_col-sm-4.vc_col-lg-3.vc_col-md-3 > div > div > div.wpb_text_column.wpb_content_element > div > ul > li:nth-child(3) a { font-family: poppins, sans-serif; }
+*/
+/* Dich vu */
+.hang1 img { width: 269px;}
+.hang2 img { width: 269px; padding-top: 20px;}
+
+
+#media_image-2 > a > img {display: none;}
+
+
+
+/*
+background-image : url('https://i2.wp.com/vshop247.com/wp-content/uploads/2020/08/Hair-Revive-set.png?fit=600%2C600&ssl=1') !important;*/
+
 /*Starting of mobile view------------*/
 @media screen and (max-width: 600px) {
 
@@ -172,6 +254,8 @@ font-size: 24pt;}
 	font-size: smaller;
 	bottom: 180px;
 }
+	
+	
 	
 	/*san pham dang sale*/
 
@@ -246,26 +330,21 @@ font-size: 24pt;}
 	/*spaces before Xem Them */
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(7) {display: none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(8) {display: none;}
-		/*spaces before Xem Them */
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(9) {display: none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(10) {display: none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(11) {display: none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(12) {display: none;}
-		/*spaces before Xem Them */
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(13) {display: none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(14) {display: none;}
 		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(15) {display: none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(16) {display: none;}
-		/*spaces before Xem Them */
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(17) {display: none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(18) {display: none;}
 		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(19) {display: none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(20) {display: none;}
-		/*spaces before Xem Them */
-	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(21) {display: none;}
+		#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(21) {display: none;}
 	#main > div:nth-child(5) > div > div > div > div > div.tbay-addon-content.woocommerce > div > div > div:nth-child(22) {display: none;}
-	#main > div:nth-child(4) > div > div > div > div > a {font-weight: bold;
-	color: black;}	
+	
 	
 span.quantity{
 	position: relative;
@@ -279,14 +358,120 @@ span.quantity{
 	position: relative;
 	top: -35px;}
 	#mobile-menu-second-mmenu > div {display: none;}
-	/*end of mobile css*/
+	
+	
+	/* mo trang web ban hang tren vshop247*/
+#slider-2-slide-3-layer-1 {font-size: 17pt !important; font-weight: bold;}
+	
+	
+	#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-features.style-3 > div > div > div> div > div > h3 {color: #d33; text-align: center !important; font-size: 12pt;}
+	
+	/*text*/
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-features.style-3 > div > div > div> div > div > p {display: unset; }
+	
+	
+	/*inner*/
+	#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-features.style-3 > div > div > div > div { padding-bottom: 25px; padding-top: 15px;  text-align: justify; padding-left: 20px; padding-right: 20px;}
 
-/*For tablet*-------*/
-@media only screen and (min-width: 600px) and (max-width: 1000px)  {
+	/*
+#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-features.style-3 > div > div > div > div {}
+	*/
+	
+	/* Moi thac mac xin lien he*/
+	#main > div.vc_row.wpb_row.vc_row-fluid.dangkibanhang.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1598312459995.wpb_start_animation.animated > div > div > div > div.wpb_text_column.wpb_content_element.center.font-16 > div > p {font-size: 11pt; }
+	
+	
+	/*image buoc 1 2 3 4*/
+	#main > div.vc_row.wpb_row.vc_row-fluid.dangkibanhang.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1598312459995.wpb_start_animation.animated > div > div > div > div.vc_row.wpb_row.vc_inner.vc_row-fluid.vc_custom_1598303414393 > div > div > div > div > figure > div > img {padding-bottom: 0px;}
+	
+	/* buoc 1 2 3 4*/
+	#main > div.vc_row.wpb_row.vc_row-fluid.dangkibanhang.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1598312459995.wpb_start_animation.animated > div > div > div > div.vc_row.wpb_row.vc_inner.vc_row-fluid.vc_custom_1598303414393 > div > div > div > div > h2 {display: unset !important;position: relative; top: 60px !important;  padding-left: 40%; color: white;}
+	
+/*tai sao hop tac cung vshop*/
+	#main > div.vc_row.wpb_row.vc_row-fluid.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1562121294770.vc_row-has-fill.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-text-heading > h3 > span {font-size: 15pt; font-weight: bold;}	
+	/*Dang ki ban hang cung Vshop*/
+	#main > div.vc_row.wpb_row.vc_row-fluid.dangkibanhang.wpb_animate_when_almost_visible.wpb_fadeInUp.fadeInUp.vc_custom_1598312459995.wpb_start_animation.animated > div > div > div > div.tbay-addon.tbay-addon-text-heading.dangkibanhangheading > h3 > span {font-size: 15pt; font-weight: bold;}
+	
+	
+	
+	/*Dich Vu Page*/
+#main > div.vc_row.wpb_row.vc_row-fluid.hang1 > div > div > div > div > figure > a > img{ position:relative; left: 25%; }
+	
+	#main > div.vc_row.wpb_row.vc_row-fluid.hang2 > div > div > div > div > figure > a > img{ position:relative; left: 25%; }
+	/*---temp--*/
+#main > div.vc_row.wpb_row.vc_row-fluid.hang2 > div:nth-child(4) > div > div > div > figure > div > img {position:relative; left: 25%;}
+	
+	/*Comming soon page*/
+/* Page not Found to Sap Ra mat*/
+#main-content  > section >  h1  { color: transparent; text-indent:-220px !important;}
+
+#main-content > section > div > p  {display: none;}
+
+#main-content > section > h1:after {
+	color: black !important;
+	text-indent:  !important;
+  content: "Sắp Ra Mắt";
+	
+	 
+	 
+}
+	/*end of mobile css*/
+}
+
+/*For tablet/Laptop*-------*/
+@media only screen and (min-width: 600px) and (max-width: 1200px)  {
 
 	/*fix view cart*/
 	#main > div > form > div > div.col-md-8 > div.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents > div img {left: -75px;}
 		span.quantity{
 	position: relative;
-	margin-left: 10px;} 
+	margin-left: 10px;}
+
+	
+	#tbay-header > div.header-main > div > div > div.header-right.col-md-4.col-xlg-3 {width: 25% !important;}
+	/*search bar*/
+#tbay-header > div.header-main > div > div > div.header-search.col-md-6.col-xlg-7 > div > div > form > div {position: relative; left: 100px!important;}
+	
+	#tbay-header > div.header-main > div > div > div.header-logo.col-md-2 > div > a > img {margin-right: 50px !important;}
+	/* Related Products*/
+	#product-related > div > div > div > div > div.item.slick-slide > div > div > div > div.caption > span > del > span > bdi {display: none;}
+	
+	/*Recommended Products*/
+	
+	#product-4638 > div.upsells.tbay-addon.tbay-addon-products.products > div > div > div > div > div > div > div > div > div.caption > span > del > span > bdi {display: none;}
 }
+
+/*For Laptop*-------*/
+@media only screen and (min-width: 1200px) and (max-width: 2000px)  {
+	/*search bar*/
+#tbay-header > div.header-main > div > div > div.header-search.col-md-6.col-xlg-7 > div > div > form > div {position: relative; left: 50px!important;}
+	
+	#tbay-header > div.header-main > div > div > div.header-logo.col-md-2 > div > a > img {margin-right: 50px !important; padding: 0px}
+	
+}
+	/*testing */
+.pswp__button .pswp__button--close button { 
+display: unset; color: red;}
+	
+}
+.pswp__button--close {color: red; display: unset;  }
+
+
+
+/* Page not Found to Sap Ra mat*/
+#main-content  > section >  h1  { color: transparent; text-indent:-480px ;}
+
+#main-content > section > div > p  {display: none;}
+
+#main-content > section > h1:after {
+	color: black !important;
+	text-indent:  !important;
+  content: "Sắp Ra Mắt";
+	font-family: comics;
+	font-size: 45pt;
+}
+
+
+/*chatnow button*/
+#dokan-content > div.dokan-store-tabs > ul > li:nth-child(4) > button {margin-left: 10px !important;}
+
